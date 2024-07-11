@@ -1,0 +1,19 @@
+.board {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	grid-template-rows: repeat(9, 1fr);
+	gap: 0.5rem;
+	width: 50%;
+	height: 100%;
+	aspect-ratio: 1/1;
+	margin: auto;
+
+	.cell {
+		border: 1px solid #000;
+		width: 100%;
+		aspect-ratio: 1/1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
